@@ -1,10 +1,15 @@
 p{
-color: yellow;
+color: rgb(43, 43, 40);
+font-size: 34px;
+max-width: 400px;
+
+
+
 }
 
 body
 {
-    background-color: rgb(39, 66, 39) ;
+    background-color: rgb(192, 154, 154) ;
 }
 
 ul {
@@ -16,6 +21,7 @@ ul {
   overflow: hidden;
   background-color: #333;
  max-width: 806px;
+ border-radius: 20px;
 
 }
 
@@ -29,6 +35,8 @@ li a {
   font-size: 24px;
   border-right: 2px solid grey;
   border-left: 2px solid grey;
+  border-radius: 20px;
+
   
 }
 
@@ -36,3 +44,19 @@ li{float: left;}
 
 li a:hover {
   background-color: rgba(0, 0, 0, 0.521);
+}
+
+img{
+  
+  max-width: 1000px;
+  max-height: 1000px;
+  height: auto;
+  width: auto;
+border-radius: 40px;
+opacity: .7;
+float: right;
+
+
+
+
+}
